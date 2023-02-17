@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Упс!{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block content %}
+    <div id="main-box" class="unselectable">
+        <b class="rainbow-text" style="font-size: 96px; display: block; text-align: center">{{ error_code }}</b>
+        <a class="common-text" style="font-size: 24px; display: block; text-align: center">{{ error_message }}</a>
+    </div>
+{% endblock %}

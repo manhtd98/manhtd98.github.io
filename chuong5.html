@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chương V. Phong cách học trừu tượng-ngẫu nhiên</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../Styles/stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../Styles/page_styles.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="dinhdang.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: #333;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .navbar .logo {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .navbar .logo img {
+        height: 40px;
+        width: auto;
+    }
+
+    .navbar .logo a:hover {
+        background-color: transparent;
+        color: inherit;
+    }
+
+    .navbar .menu {
+        display: flex;
+        flex-grow: 1;
+        margin-left: 540px;
+        position: relative;
+    }
+
+    .navbar .menu a {
+        margin: 0 10px;
+    }
+
+    /* Dropdown container */
+    .navbar .menu .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown content */
+    .navbar .menu .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .navbar .menu .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #333;
+    }
+
+    .navbar .menu .dropdown-content a:hover {
+        background-color: #ffffff;
+        color: black;
+    }
+
+    /* Show the dropdown menu on hover */
+    .navbar .menu .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .navbar .search-container {
+        display: flex;
+    }
+
+    .navbar input[type="text"] {
+        padding: 6px;
+        margin-right: 10px;
+        font-size: 17px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .navbar button {
+        padding: 6px 10px;
+        background-color: #555;
+        color: #333;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .navbar button:hover {
+        background-color: #666;
+    }
+    
+    p.calibre1 {
+        text-align: justify;
+        margin: 20px auto;
+        max-width: 1000px;
+        line-height: 1.6;
+    }
+
+    h1.calibre3 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .question {
+        margin: 20px auto;
+        max-width: 1000px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .question h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .question .options {
+        margin-bottom: 20px;
+    }
+
+    .question .options label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .question button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .question button:hover {
+        background-color: #555;
+    }
+
+    #result {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    /* Style for correct answers */
+    .correct {
+        color: green;
+    }
+    .scroll-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .scroll-buttons button {
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .scroll-buttons button:hover {
+            background-color: #555;
+        }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<div class="logo"> 
+    <a href="./home.html"><img src="//images.nxblaodong.com.vn/avatar/image-2022120209590537.svg"></a>
+</div>
+<div class="menu">
+    <div class="dropdown">
+        <a href="#"><i class="bi bi-card-list"></i> Mục lục</a>
+        <div class="dropdown-content">
+            <a href="trangtrachnhiem.html" target="_self">Trang trách nhiệm</a>
+            <a href="gioithieu.html" target="_self">Lời giới thiệu</a>
+            <a href="chuong1.html" target="_self">Chương 1</a>
+            <a href="chuong2.html" target="_self">Chương 2</a>
+            <a href="chuong3.html" target="_self">Chương 3</a>
+            <a href="chuong4.html" target="_self">Chương 4</a>
+            <a href="chuong5.html" target="_self">Chương 5</a>
+            <a href="chuong6.html"  target="_self">Chương 6</a>
+            <a href="chuong7.html" target="_self">Chương 7</a>
+            <a href="chuong8.html" target="_self">Chương 8</a>
+            <a href="chuong9.html" target="_self">Chương 9</a>
+            <a href="chuong10.html" target="_self">Chương 10</a>
+            <a href="chuong11.html" target="_self">Chương 11</a>
+            <a href="chuong12.html" target="_self">Chương 12</a>
+        </div>
+    </div>
+</div>
+<div class="search-container">
+    <input type="text" placeholder="Tìm kiếm...">
+    <button type="submit"><i class="bi bi-search-heart-fill"></i></button>
+</div>
+</div>
+<h1 class="calibre3">CHƯƠNG V. PHONG CÁCH HỌC TRỪU TƯỢNG-NGẪU NHIÊN</h1>
+<center><audio controls autoplay loop>
+    <source src="/TheNameOfLifeSpiritedAway-Dang_3643y.mp3">
+</audio></center>
+<center><img src="Chương 5.jpg" alt="5" width="700px" height="500px"></center>
+<p class="calibre1">Kẻ tình nghi ngồi một mình trong phòng thẩm vấn. Sĩ quan Baker, một trong những cảnh sát giỏi nhất, bực bội bước ra ngoài. "Hắn không chịu khai! Tôi đã làm mọi cách, nhưng hắn nhất quyết không hé răng."</p>
+<p class="calibre1">Thanh tra Frye cười đáp: "Để tôi nói chuyện với hắn."</p>
+<p class="calibre1">"Tôi nói rồi," Baker cáu kỉnh. "Tôi đã thử hết cách."</p>
+<p class="calibre1">Thanh tra Frye đi vào phòng thẩm vấn và Baker hồ nghi theo dõi họ qua tấm gương một chiều. Thanh tra Frye đặt tay lên đầu nghi phạm, và hắn bắt đầu khóc thổn thức. Thanh tra Frye bật máy ghi âm lên, và cuộc thú tội kéo dài gần một tiếng.</p>
+<p class="calibre1">"Cậu đã làm gì vậy?" Baker kinh ngạc hỏi khi Frye bước khỏi phòng.</p>
+<p class="calibre1">Thanh tra Frye nhún vai: "Tôi chỉ nói chuyện với hắn thôi."</p>
+<p class="calibre1">NHỮNG NGƯỜI THUỘC PHONG CáCH HỌC TRỪU TƯỢNG-NGẪU NHIÊN</p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/UiDod4NtLu0?si=OTXau4czceCNeuNT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+<p class="calibre1">Những thanh tra và nhân viên cảnh sát thuộc phong cách theo trình tự thường bực bội khi các đối tượng không hợp tác. Trong học viện cảnh sát, họ được dạy cách tra hỏi một nghi phạm, phỏng vấn một nạn nhân, và lấy thông tin từ một nhân chứng theo một số quy trình nhất định. Vì vậy khi một nhân viên cảnh sát thuộc phong cách theo trình tự đã tuân thủ nghiêm ngặt quá trình đó và thất bại, anh ta thường trở nên căng thẳng. Đó là những gì đã xảy ra trong câu chuyện trên. Sĩ quan Baker không thể hiểu nổi tại sao thanh tra Frye, một người có phong cách học trừu tượng-ngẫu nhiên lại chỉ cần nói một vài câu là làm cho nghi phạm nói ra mọi chuyện. Trong rất nhiều trường hợp, kĩ năng không chỉ đơn giản là những gì mà một người có thể học từ sách vở.</p>
+<p class="calibre1">Những người trừu tượng-ngẫu nhiên có giác quan thứ sáu để hiểu được những gì người khác cần mà không cần họ phải nói ra. Những điều tiềm ẩn dường như luôn khiến những người thuộc phong cách theo trình tự không hiểu nổi lại là thứ rất dễ dàng với nhóm trừu tượng-ngẫu nhiên.</p>
+<p class="calibre1">Vì người trừu tượng-ngẫu nhiên rất tin tưởng vào trực giác, trực giác của họ càng ngày càng trở nên nhạy bén theo thời gian. Tuy nhiên, để giải thích tại sao họ biết được những điều đó lại chẳng dễ dàng.</p>
+<p class="calibre1">Người trừu tượng-ngẫu nhiên tin rằng trên đời không chỉ có những con số lạnh lẽo, khô khan hay các chi tiết dài dòng vô tận. Họ cảm thấy khó khăn khi phải làm việc trong một môi trường không hòa thuận. Họ thường là những người đi hòa giải, nhiều khi còn tự đứng ra nhận lỗi thay. Nhiều người trừu tượng-ngẫu nhiên thường xuyên phải đỡ lời hay xin lỗi về những gì đồng nghiệp hoặc người thân đã làm.</p>
+<p class="calibre1">Trước khi đưa ra quyết định, người trừu tượng-ngẫu nhiên luôn muốn có sự góp ý của bạn bè và người thân. Người trừu tượng-ngẫu nhiên đạt phong độ tốt nhất khi họ là một thành viên trong nhóm. Việc quan tâm đến ý kiến của những người xung quanh giúp họ có lối sống hòa đồng.</p>
+<p class="calibre1">Dù phong cách học tập chủ đạo của tôi là cụ thể- ngẫu nhiên, các đặc điểm người trừu tượng-ngẫu nhiên của tôi cũng rất rõ. Điều này biểu hiện rõ nhất trong thời gian tôi đang hẹn hò với người chồng thuộc phong cách theo trình tự. Giữa chúng tôi xảy ra rất nhiều mâu thuẫn thông thường của các cặp đôi.</p>
+<p class="calibre1">Nếu John hỏi: "Em muốn đi ăn tối không?"</p>
+<p class="calibre1">Tôi sẽ hào hứng đồng ý.</p>
+<p class="calibre1">"Em muốn đi đâu?" Anh ấy sẽ hỏi tiếp.</p>
+<p class="calibre1">Vì không muốn đưa ra một lựa chọn không hợp lý, tôi sẽ né tránh: "Em cũng không biết nữa, anh muốn đi đâu?"</p>
+<p class="calibre1">Và anh ấy sẽ nhún vai. "Chuyện đó không quan trọng. Em cứ chọn một nhà hàng đi."</p>
+<p class="calibre1">Cứ thế cho đến khi cả hai đều nổi cáu. Tại sao tôi không đưa ra quyết định? Anh ấy không nhận ra rằng đó là vì tôi tôn trọng ý kiến của anh ấy sao? Tới khi chúng tôi chọn được nhà hàng thì cả hai đã bực mình đến mức chẳng còn hứng thú đâu mà thưởng thức bữa tối.</p>
+<p class="calibre1">Cuối cùng, John nghĩ ra cách để tránh cãi cọ. Bây giờ khi mời tôi đi ăn tối, anh ấy sẽ đưa ra ba lựa chọn: "Đồ ăn Trung Quốc, Mexico, hay Mĩ?", chính là ba kiểu đồ ăn mà chúng tôi thích. "Trung Quốc," tôi quyết định. Rồi anh gợi ý ba cửa hàng ăn Trung Quốc mà anh thấy khá lý tưởng. Tôi chọn một trong ba, thường không mất đến một phút. Tôi chọn được thứ mình thích, anh có được một quyết định nhanh chóng, và chúng tôi đều tận hưởng được bữa tối.</p>
+<p class="calibre1">Trong mắt nhiều người, người trừu tượng-ngẫu nhiên dường như thiếu khả năng thuyết phục và quyết đoán, nhưng thực ra đó là cách họ cố gắng dung hòa ý muốn của nhiều người. Trong thực tế, đây lại chính là nhóm có khả năng thuyết phục tốt nhất trong bốn nhóm, và một khi đã chọn một công việc, không ai có thể tận tâm bằng người nhóm này.</p>
+<p class="calibre1">CáC BẬC PHỤ HUYNH THUỘC PHONG CáCH HỌC TRỪU TƯỢNG-NGẪU NHIÊN</p>
+<p class="calibre1">Căn phòng hỗn độn, chồng chất giấy tờ, quần áo. Trên bàn làm việc đóng khung khẩu hiệu của một người trừu tượng-ngẫu nhiên: một căn nhà sạch sẽ là biểu hiện của cuộc sống phí hoài!</p>
+<p class="calibre1">Tuy họ có thể sắp xếp ngôi nhà của mình ngăn nắp nhưng việc đó lại không phải là ưu tiên của họ. Họ sống tự do, và thường gặp khó khăn khi phải duy trì một thời khóa biểu hay một thói quen. Phần lớn các bậc phụ huynh trừu tượng-ngẫu nhiên rất ân cần, trìu mến, luôn khen ngợi và làm yên lòng con. Khi nuôi dạy một đứa con thuộc phong cách theo trình tự, các bậc phụ huynh trừu tượng-ngẫu nhiên thường bị coi là không kiên định, họ phải quyết định xem nhất thiết phải dạy con điều gì.</p>
+<p class="calibre1">Thói quen né tránh xung đột của những người trừu tượng-ngẫu nhiên có thể biến họ thành một người mềm yếu trong gia đình. Trong rất nhiều trường hợp, họ chấp nhận thay đổi ý kiến của mình để khỏi phải tranh cãi. Họ cố gắng làm tất cả mọi người hài lòng, và điều đó có nghĩa là họ có thể bỏ qua các vấn đề mà lẽ ra phải chú trọng - điều mà các bậc phụ huynh theo trình tự chắc chắn sẽ làm. Cho dù người trừu tượng-ngẫu nhiên luôn kiên định trong các vấn đề an toàn cá nhân hay đạo đức, mọi thứ khác đều phụ thuộc vào tâm trạng của họ. Điều này rất dễ gây hiểu nhầm, nhất là đối với một đứa trẻ thuộc phong cách theo trình tự. Đứa trẻ đó sẽ bị phạt khi làm một điều gì đó sai, nhưng ngày hôm sau, nếu việc đó có tiếp diễn lại chẳng sao.</p>
+<p class="calibre1">Những người trừu tượng-ngẫu nhiên nếu lấy chồng hoặc vợ thuộc phong cách theo trình tự thường mâu thuẫn về cách dạy dỗ và rèn kỉ luật cho con cái. Họ thường thấy cần phải mềm dẻo để làm dịu bớt sự cứng rắn của người chồng hoặc vợ theo trình tự của mình. </p>
+<p class="calibre1">Phụ huynh phong cách trừu tượng-ngẫu nhiên luôn luôn là các phụ huynh tận tâm, và thường thấy không thoải mái khi phải yêu cầu con mình dọn phòng, trong khi các bậc phụ huynh theo trình tự lại rất nghiêm khắc trong việc này. Rất dễ khiến họ cảm thấy có lỗi. Từ nhỏ con họ đã biết được điều này và chúng sẽ biết cách chi phối cha mẹ. Họ rất nhạy cảm với những cảm xúc của người khác, và đó vừa là một thế mạnh vừa là một nhược điểm vì họ rất quan tâm đến suy nghĩ của người khác.</p>
+<p class="calibre1">NHỮNG ĐỨA TRẺ THUỘC PHONG CáCH HỌC TRỪU TƯỢNG-NGẪU NHIÊN</p>
+<p class="calibre1">Một bà mẹ than phiền rằng khi đứa con gái trừu tượng-ngẫu nhiên của mình quý mến một giáo viên nào đó, cô bé sẽ nài nỉ mẹ mua tặng cô rất nhiều thứ. Sau một năm trời đầy những món quà và những lời cảm ơn, bà mẹ đã hiểu hơn sự nhạy cảm của con gái mình. "Tuy nhiên, năm tới, chúng tôi mong rằng con gái chúng tôi gặp một giáo viên nghiêm khắc hơn!" Bà mẹ thừa nhận.</p>
+<p class="calibre1">Những đứa trẻ trừu tượng-ngẫu nhiên, hơn tất cả những đứa trẻ thuộc các phong cách học khác, rất quan tâm đến việc làm hài lòng người khác. Đối với chúng, cuộc sống là một trải nghiệm mang tính cá nhân cao.</p>
+<p class="calibre1">Những đứa trẻ này rất khó tập trung vào các môn học mà trẻ thấy không có ảnh hưởng gì đến cuộc sống của mình và những người thân. Chúng có thể có động lực để đạt được điểm tốt đơn giản chỉ vì điều đó quan trọng đối với cha mẹ mình. Trẻ có thể hay bị quy kết là "không sống đúng với năng lực của mình" vì hiếm khi theo đuổi kiến thức đơn thuần vì thích học. </p>
+<p class="calibre1">Một đứa trẻ trừu tượng-ngẫu nhiên có thể thấy khó xử trong một lớp học mà các học sinh khác không vui vẻ hay giáo viên không quan tâm, quý mến trẻ. Gần như chúng có loại ăng-ten vô hình rất nhạy với các rắc rối. Nếu có mâu thuẫn hoặc xung đột giữa các cá nhân, thì chúng "bắt sóng" ra ngay và gần như không thể tập trung được vào việc học nữa.</p>
+<p class="calibre1">Những đứa trẻ này sẽ là người lên thông báo với giáo viên những chuyện như: "Con chó của bạn Susie bị đâm sáng nay, và bạn ấy đang khóc. Chúng em có thể sang phòng kia để nói chuyện với bạn ấy được không ạ?" Những đứa trẻ khác có thể cũng sẽ nói ra chuyện của Susie, nhưng thường thì chúng sẽ kể rằng: "Bạn Susie đang khóc, cô có thể tìm ai nói chuyện với bạn ấy được không ạ?" Không phải mất nhiều thời gian để những đứa trẻ khác nhận ra rằng những đứa trẻ có phong cách trừu tượng-ngẫu nhiên có thể lắng nghe và an ủi người khác tự nhiên nhất.</p>
+<p class="calibre1">ĐIỀU Gì LÀM HỌ CĂNG THẲNG?</p>
+<p class="calibre1">Các bậc phụ huynh trừu tượng-ngẫu nhiên và những đứa trẻ trừu tượng-ngẫu nhiên có rất nhiều điểm tương đồng về những nguyên nhân khiến họ căng thẳng và cách giải toả được căng thẳng. </p>
+<p class="calibre1">Những người trừu tượng-ngẫu nhiên cần:</p>
+<p class="calibre1">Những lời khen chân thật và thường xuyên</p>
+<p class="calibre1">Được yêu mến và tôn trọng</p>
+<p class="calibre1">Cơ hội làm việc nhóm</p>
+<p class="calibre1">Cơ hội dùng đến sự sáng tạo và trí tưởng tượng</p>
+<p class="calibre1">Được thể hiện tình cảm</p>
+<p class="calibre1">Những điều làm họ căng thẳng:</p>
+<p class="calibre1">Phải thể hiện rõ thái độ</p>
+<p class="calibre1">Cạnh tranh cá nhân</p>
+<p class="calibre1">Không được quý mến và tôn trọng</p>
+<p class="calibre1">áp lực của người thân để có tính cách của nhóm theo trình tự nhiều hơn.</p>
+<p class="calibre1">Cách làm họ bớt căng thẳng:</p>
+<p class="calibre1">Để họ làm việc nhóm</p>
+<p class="calibre1">Nhận ra các ưu điểm, không cần chỉ ra những nhược điểm </p>
+<p class="calibre1">Luôn được yêu mến và tôn trọng</p>
+<p class="calibre1">Được lắng nghe, nhưng đừng đưa ra lời khuyên nếu họ không yêu cầu.</p>
+
+<p class="calibre1"> KẾT LUẬN</p>
+<p class="calibre1">Trong giao tiếp, không ai có thể cạnh tranh được với người phong cách trừu tượng-ngẫu nhiên về khả năng cảm nhận được điều cần làm và hòa hợp với những người khó tính. Họ giàu tình thương và tốt bụng. Những người thuộc phong cách khác đôi khi không đánh giá cao sự tự giác và mềm dẻo của họ. Nếu muốn sống hòa thuận với người khác, mỗi chúng ta cần sử dụng kỹ năng này mỗi ngày.</p>
+<center><img src="Chương 5.1.png" alt="5.1" width="700px" height="500px"></center>
+
+<div class="question">
+    <h2>Câu hỏi 1: Cách để người trừu tượng - ngẫu nhiên giảm bớt căng thẳng là:</h2>
+    <div class="options">
+        <label><input type="checkbox" name="answer1" value="Tôn">Tôn trọng họ</label>
+        <label><input type="checkbox" name="answer1" value="Không">Không lắng nghe họ</label>
+        <label><input type="checkbox" name="answer1" value="Để">Để họ làm việc nhóm</label>
+        <label><input type="checkbox" name="answer1" value="Cạnh">Cạnh tranh cá nhân</label>
+    </div>
+</div>
+
+<div class="question">
+    <h2>Câu hỏi 2: Những lời khen chân thật và thường xuyên giúp người trừu tượng - ngẫu nhiên giải tỏa căng thẳng?</h2>
+    <div class="options">
+        <label><input type="checkbox" name="answer2" value="True">True</label>
+        <label><input type="checkbox" name="answer2" value="False">False</label>
+    </div>
+</div>
+<div class="question">
+    <h2>Câu hỏi 3: Những nguyên nhân khiến người trừu tượng - ngẫu nhiên bị căng thẳng?</h2>
+    <div class="options">
+        <label><input type="checkbox" name="answer3" value="Không được">Không được quý mến </label>
+        <label><input type="checkbox" name="answer3" value="Cạnh tranh">Cạnh tranh cá nhân</label>
+        <label><input type="checkbox" name="answer3" value="Phải">Phải thể hiện rõ thái độ</label>
+        <label><input type="checkbox" name="answer3" value="Được">Được tôn trọng</label>
+    </div>
+</div>
+<button onclick="checkAnswers()" style="margin-left: 130px;">Kiểm tra đáp án</button>
+<p id="result"></p>
+
+<script>
+function checkAnswers() {
+    var correctAnswers = {
+        answer1: ['Tôn', 'Để'],
+        answer2: ['True'],
+        answer3: ['Không được', 'Cạnh tranh', 'Phải']
+    };
+    
+    var correctCount = 0;
+
+    for (var question in correctAnswers) {
+        var options = document.querySelectorAll('input[name="' + question + '"]');
+        
+        options.forEach(function(option) {
+            if (correctAnswers[question].includes(option.value)) {
+                option.parentNode.classList.add('correct');
+            }
+            if (option.checked && correctAnswers[question].includes(option.value)) {
+                correctCount++;
+            }
+        });
+    }
+
+    document.getElementById('result').innerText = 'Số câu chọn đúng: ' + correctCount;
+}
+</script>
+<div class="scroll-buttons">
+    <button onclick="scrollToTop()"><i class="bi bi-arrow-up"></i></button>
+    <button onclick="scrollToBottom()"><i class="bi bi-arrow-down"></i></button>
+</div>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function scrollToBottom() {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

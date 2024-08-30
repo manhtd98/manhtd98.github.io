@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chương III. Phong cách học cụ thể theo trình tự</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../Styles/stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../Styles/page_styles.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="dinhdang.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+	body {
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.navbar {
+		display: flex;
+		background-color: #333;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 20px;
+	}
+
+	.navbar a {
+		color: white;
+		text-decoration: none;
+		padding: 14px 20px;
+		display: block;
+	}
+
+	.navbar a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+
+	.navbar .logo {
+		font-size: 10px;
+		font-weight: bold;
+	}
+
+	.navbar .logo img {
+		height: 40px;
+		width: auto;
+	}
+
+	.navbar .logo a:hover {
+		background-color: transparent;
+		color: inherit;
+	}
+
+	.navbar .menu {
+		display: flex;
+		flex-grow: 1;
+		margin-left: 540px;
+		position: relative;
+	}
+
+	.navbar .menu a {
+		margin: 0 10px;
+	}
+
+	/* Dropdown container */
+	.navbar .menu .dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	/* Dropdown content */
+	.navbar .menu .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #333;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.navbar .menu .dropdown-content a {
+		color: rgb(255, 255, 255);
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		background-color: #333;
+	}
+
+	.navbar .menu .dropdown-content a:hover {
+		background-color: #ffffff;
+		color: black;
+	}
+
+	/* Show the dropdown menu on hover */
+	.navbar .menu .dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.navbar .search-container {
+		display: flex;
+	}
+
+	.navbar input[type="text"] {
+		padding: 6px;
+		margin-right: 10px;
+		font-size: 17px;
+		border: none;
+		border-radius: 3px;
+	}
+
+	.navbar button {
+		padding: 6px 10px;
+		background-color: #555;
+		color: #333;
+		border: none;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	.navbar button:hover {
+		background-color: #666;
+	}
+    
+	p.calibre1 {
+        text-align: justify;
+        margin: 20px auto;
+        max-width: 1000px;
+        line-height: 1.6;
+    }
+
+    h1.calibre3 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+	.question {
+        margin: 20px auto;
+        max-width: 1000px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .question h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .question .options {
+        margin-bottom: 20px;
+    }
+
+    .question .options label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .question button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .question button:hover {
+        background-color: #555;
+    }
+
+    #result {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    /* Style for correct answers */
+    .correct {
+        color: green;
+    }
+	.scroll-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .scroll-buttons button {
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .scroll-buttons button:hover {
+            background-color: #555;
+        }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<div class="logo"> 
+	<a href="./home.html"><img src="//images.nxblaodong.com.vn/avatar/image-2022120209590537.svg"></a>
+</div>
+<div class="menu">
+	<div class="dropdown">
+		<a href="#"><i class="bi bi-card-list"></i> Mục lục</a>
+		<div class="dropdown-content">
+			<a href="trangtrachnhiem.html" target="_self">Trang trách nhiệm</a>
+			<a href="gioithieu.html" target="_self">Lời giới thiệu</a>
+			<a href="chuong1.html" target="_self">Chương 1</a>
+			<a href="chuong2.html" target="_self">Chương 2</a>
+			<a href="chuong3.html" target="_self">Chương 3</a>
+			<a href="chuong4.html" target="_self">Chương 4</a>
+			<a href="chuong5.html" target="_self">Chương 5</a>
+			<a href="chuong6.html"  target="_self">Chương 6</a>
+			<a href="chuong7.html" target="_self">Chương 7</a>
+			<a href="chuong8.html" target="_self">Chương 8</a>
+			<a href="chuong9.html" target="_self">Chương 9</a>
+			<a href="chuong10.html" target="_self">Chương 10</a>
+			<a href="chuong11.html" target="_self">Chương 11</a>
+			<a href="chuong12.html" target="_self">Chương 12</a>
+		</div>
+	</div>
+</div>
+<div class="search-container">
+	<input type="text" placeholder="Tìm kiếm...">
+	<button type="submit"><i class="bi bi-search-heart-fill"></i></button>
+</div>
+</div>
+<h1 class="calibre3">CHƯƠNG III. PHONG CÁCH HỌC CỤ THỂ THEO TRÌNH TỰ</h1>
+<center><audio controls autoplay loop>
+    <source src="/MyNeighborTotoro-DangCapNhat_3644b.mp3">
+</audio></center>
+<center><img src="Chương 3.png" alt="3" width="700px" height="500px"></center>
+<p class="calibre1">Hôm đó, có một cuộc họp tối tại nhà thờ địa phương. Vì một vài lý do, những người tham gia cuộc họp thuộc phong cách ngẫu nhiên. Những người thuộc phong cách cụ thể-theo trình tự vắng mặt.</p>
+<p class="calibre1">Nội dung chính trong chương trình là nhiệm vụ quảng bá cho ngày lễ lớn sắp tới. "Này mọi người!", một người háo hức nói: "Tôi có một ý tưởng tuyệt vời!" (Đây là kiểu câu thường làm phần lớn những người cụ thể-theo trình tự kinh hãi.) "Chúng ta nên mua 1.000 quả bóng bơm khí heli, bỏ thông báo vào trong rồi thả chúng lên trời. Chúng sẽ rơi xuống các nơi trong vùng này, và mọi người sẽ biết về sự kiện." Những người ngẫu nhiên đều nghĩ đây là một ý tưởng hay, và họ đã đi mua bóng bay ngay trong tuần đó. </p>
+<p class="calibre1">Trước khi bắt tay vào tiến hành sự kiện, lại có một cuộc họp khác và lần này có mặt những người cụ thể-theo trình tự. Những người ngẫu nhiên hào hứng chia sẻ kế hoạch, và những người cụ thể-theo trình tự lắng nghe rất lịch sự. Nghe xong, một người cụ thể-theo trình tự giơ tay. "Các bạn có biết những quả bóng bơm khí heli có thể đi bao xa trước khi rơi xuống không?" Anh ta hỏi.</p>
+<p class="calibre1">Những người thuộc phong cách ngẫu nhiên bối rối: "Không, chúng tôi không biết." Người cụ thể-theo trình tự nói tiếp: "Chúng có thể bay xa tới 200 hoặc 300 dặm. Tôi không nghĩ là những người bên kia núi sẽ biết để tới đại hội đâu."</p>
+<p class="calibre1">"Ừ nhỉ, chúng tôi đã không nghĩ tới điều đó." Một người ngẫu nhiên thú nhận.</p>
+<p class="calibre1">Một người cụ thể-theo trình tự khác giơ tay: "Các bạn có biết bóng bay bơm heli có thể ở bao lâu trên trời trước khi rơi xuống không?" </p>
+<p class="calibre1">"Không." Một người ngẫu nhiên bẽn lẽn thừa nhận.</p>
+<p class="calibre1">Cô gái giải đáp: "Từ hai đến ba tháng. Lúc đó, đại hội đã kết thúc rồi."</p>
+<p class="calibre1">Những người ngẫu nhiên thừa nhận: "Ừ nhỉ, các bạn nói phải."</p>
+<p class="calibre1">Các thành viên tham gia cuộc họp đã có một bài học giá trị. Trước đó, những người ngẫu nhiên đôi lúc nghĩ rằng những người cụ thể-theo trình tự chỉ thích bác bỏ ý kiến và phê phán những kế hoạch thiếu thực tế. Giờ thì họ đã nhận ra rằng đóng góp của những người cụ thể-theo trình tự là vô giá. Và bây giờ, tại các buổi họp, thật không lạ khi ai đó nói: "Đợi đã! Chúng ta không thể bắt đầu mà thiếu những người cụ thể-theo trình tự được!"</p>
+<p class="calibre1">NHỮNG NGƯỜI THUỘC PHONG CCH HỌC CỤ THỂ-THEO TRìNH TỰ</p>
+<p class="calibre1">Khi tiếp cận với một ý tưởng trừu tượng, người theo thiên hướng cụ thể-theo trình tự có khả năng đặc biệt trong việc nhận ra mặt thực tế của vấn đề. Họ rất biết cách làm cho một kế hoạch đạt được hiệu quả cao nhất, có sở trường sắp xếp công việc hợp lý và nâng cao năng suất. Khả năng suy nghĩ theo các bước của họ khiến họ có thể kết hợp các yếu tố rời rạc trong công việc lại với nhau bằng cách làm theo những chỉ dẫn từng bước.</p>
+<p class="calibre1">Người cụ thể-theo trình tự sống rất thẳng thắn. Cách nói năng của họ thường súc tích, nhanh và hống hách. Thái độ điển hình của cụ thể-theo trình tự là: "Cần phải làm thì làm" và "Cần phải nói thì nói". Những người cụ thể-theo trình tự không bao giờ nói điều vô nghĩa, họ chỉ nói điều họ nghĩ. Họ thường không hiểu những điều tế nhị hay bóng gió xa xôi. Họ muốn bạn nói với họ chính xác điều bạn muốn họ làm.</p>
+<p class="calibre1">Dù chồng tôi chủ yếu thuộc phong cách trừu tượng-theo trình tự, anh cũng có nhiều nét của một người cụ thể-theo trình tự. Các gợi ý thường không ích gì khi anh chọn quà tặng tôi vào những dịp quan trọng. Giáng Sinh đầu tiên sau khi chúng tôi cưới nhau, anh đã chuẩn bị cho tôi một "món quà lớn". "Nó màu đỏ," anh nói, "đây là một thứ em sẽ không bao giờ tự mua cho mình, và anh không thể đặt nó vừa vặn dưới gốc cây thông vì nó rất to." Vào ngày Giáng Sinh, tôi tìm thấy món quà dưới hiên. Đó là một thứ màu đỏ chói... một cái máy cắt cỏ. Sau vài mùa Giáng Sinh được nhận những thứ như máy xay sinh tố hay rèm phòng tắm, cuối cùng tôi cũng ý thức được rằng anh không thể đọc được ý nghĩ của tôi. Anh sẽ luôn luôn nói rằng anh thực sự muốn làm tôi hạnh phúc, nhưng tôi cần phải nói với anh cái gì có thể <em class="calibre4">làm tôi hạnh phúc</em>. Cho dù đã dần dần nhớ được khá nhiều những thứ tôi thích, anh vẫn rất vui khi tôi đưa cho anh danh sách chính xác những gì tôi cần.</p>
+<p class="calibre1">Việc tặng những món quà thực dụng thể hiện khả năng nhạy bén và thực tế của người cụ thể-theo trình tự. Do bản năng thực tế, họ rất giỏi trong việc làm theo thời khoá biểu và sắp xếp, duy trì một hệ thống. Họ luôn vạch ra các danh sách, và thậm chí một số người cụ thể-theo trình tự thừa nhận rằng họ phụ thuộc vào các danh sách đến nỗi nếu làm một việc không có trong danh sách, họ sẽ viết thêm việc đó vào danh sách để có được niềm thỏa mãn được gạch nó đi. Người cụ thể-theo trình tự thường là những người nhặt nhạnh các mảnh vỡ, dọn dẹp đống hỗn độn và vứt đi các đồ thừa. Họ thà tự mình làm mọi việc còn hơn là để chúng dở dang, nhưng nếu đã nhúng tay vào thì họ sẽ không đời nào chịu đựng trong im lặng. Những người sống với người cụ thể-theo trình tự luôn bị nhắc nhở về trách nhiệm, hoặc phải nghe một bài thuyết giảng lê thê để rồi thấy mình thật là tội lỗi.</p>
+<p class="calibre1">CáC BẬC PHỤ HUYNH THUỘC PHONG CáCH HỌC </p>
+<p class="calibre1">CỤ THỂ-THEO TRìNH TỰ</p>
+<p class="calibre1">Trong buổi họp phụ huynh sáng thứ bảy, một đôi vợ chồng đứng tuổi bị muộn gần một tiếng đồng hồ. Người vợ biện hộ: "Chúng tôi ngủ quên mất. Hôm qua chúng tôi đã thuê ba bộ phim cực kì dở kéo dài tới tận hai giờ sáng."</p>
+<p class="calibre1">Khi tôi hỏi tại sao họ phải chịu đựng một buổi tối nhàm chán đến thế, bà có vẻ ngạc nhiên. "Chúng tôi đã trả tiền để được xem những bộ phim đó. <em class="calibre4">Chúng tôi không thể không xem hết được!"</em></p>
+<p class="calibre1">Người cụ thể-theo trình tự luôn ý thức rõ ràng về thứ tự và trách nhiệm, và họ luôn cần có một mở đầu, một đoạn giữa, và một phần kết. Trong việc đối xử với con cái, phụ huynh cụ thể-theo trình tự thường:</p>
+<p class="calibre1">· Giao tiếp với con cái với thái độ dứt khoát và mong đợi được nhận điều tương tự.</p>
+<p class="calibre1">· Tin rằng một câu hỏi có-không cần có một câu trả lời phủ định hay khẳng định chứ không cần lời giải thích dài dòng.</p>
+<p class="calibre1">· Mong muốn chỉ dẫn của mình phải được tuân theo, không thắc mắc hay trì hoãn.</p>
+<p class="calibre1">· Đặt ra những luật lệ rõ ràng mà con cái cần tuân theo, những hình phạt cho việc không nghe lời. Tất cả đều dứt khoát và kiên định.</p>
+<p class="calibre1">· Trở nên khó chịu khi phải nhắc lại điều gì đó nhiều lần.</p>
+<p class="calibre1">· Bực mình khi thấy con mình chọn cách phức tạp để làm một việc mà họ cho là dễ dàng.</p>
+<p class="calibre1">Các bậc phụ huynh cụ thể-theo trình tự gần như luôn luôn kỳ vọng nhiều vào việc học hành và cư xử của con cái. Họ gần như không gặp rắc rối gì với việc thích nghi với các phong cách học truyền thống của hầu hết các trường học, vì những phong cách đó thường cụ thể và theo trình tự. Nếu một đứa trẻ gặp nhiều khó khăn trong việc học, cha mẹ cụ thể-theo trình tự của đứa trẻ đó thường nghĩ rằng tré chưa cố gắng hết sức.</p>
+<p class="calibre1">Những phụ huynh cụ thể-theo trình tự thường không bao giờ chấp nhận những lý do như "Bài quá khó", "Con không thích nó" hay "Con chẳng hiểu gì cả!" Bản chất của họ là làm những gì cần làm, dù có thích hay không. Nhiệm vụ và bổn phận đóng vai trò quan trọng trong cuộc sống của họ, và họ mong đợi con mình cũng làm được như thế.</p>
+<p class="calibre1">Về mặt kỉ luật, các phụ huynh cụ thể-theo trình tự muốn con mình làm theo những gì chúng được chỉ bảo hoặc sẽ bị phạt nếu không nghe lời. Trong ý thức của các bậc phụ huynh cụ thể-theo trình tự, các hình phạt sẽ ngăn ngừa được sự hư đốn. Nếu con họ không nghe lời, cách xử lý yêu thích của họ là "đếm ngược".</p>
+<p class="calibre1">Cách đếm ngược có hiệu quả với rất nhiều đứa trẻ, nhưng không phải tất cả. Ví dụ, khi mẹ tôi nói với chị tôi: "Sandee, mẹ sẽ đếm tới ba và con phải có mặt ở đây ngay. Một... hai...", chị ấy sẽ tới ngay.</p>
+<p class="calibre1">Nhưng tôi lại không phục tùng dễ như thế. Bản chất bướng bỉnh của tôi khiến tôi chống đối. Mẹ tôi đếm: "Một... hai... hai rưỡi... hai ba phần tư... hai bảy phần tám..." Tôi thường làm thinh, để xem chuyện gì sẽ xảy ra. Tất nhiên là tôi bị phạt!</p>
+<p class="calibre1">Đây là một ví dụ khác về sự đối lập giữa các phong cách. Một phụ huynh cụ thể-theo trình tự nhíu mày nhìn đứa con cụ thể-ngẫu nhiên đang đứng trên bàn trà. Bà mẹ cảnh báo: "Nếu con cứ đứng trên bàn, mẹ sẽ đánh đòn đấy." Đứa trẻ im lặng một chút rồi nhún vai và nói: "Mẹ cứ đánh con đi. Dù đau và nhiều thế nào cũng được."</p>
+<p class="calibre1">Đối với các phụ huynh cụ thể-theo trình tự, chỉ cần dọa đánh đòn thôi là đủ. Họ dường như không thể hiểu nổi việc một đứa trẻ chấp nhận thà bị đánh đòn chứ nhất định không chịu nghe lời.</p>
+<p class="calibre1">Mặt khác, đối với một đứa trẻ cụ thể-theo trình tự, cách tiếp cận của các phụ huynh cụ thể-theo trình tự gần như có hiệu quả ngay lập tức. Dù sao thì chúng cũng hiểu cách nghĩ của cha mẹ. Những đứa trẻ cụ thể-theo trình tự cảm thấy thoải mái khi biết những gì đang chờ đợi chúng, và biết rằng các thói quen và thời khoá biểu sẽ ổn định. Với những đứa trẻ thiên hướng ngẫu nhiên hơn, cách tiếp cận của các phụ huynh cụ thể-theo trình tự lại có vẻ độc tài và cứng nhắc. Do cách nhìn của những người ngẫu nhiên khác những người cụ thể rõ rệt, nên việc hiểu quan điểm của nhau gần như không thể.</p>
+<p class="calibre1"> </p>
+<p class="calibre1">NHỮNG ĐỨA TRẺ THUỘC PHONG CáCH HỌC CỤ THỂ-THEO TRìNH TỰ</p>
+<p class="calibre1">Kelli là một học sinh lớp ba thông minh và cẩn thận. Đối với cô bé, môn lịch sử là môn khó nhất. Một buổi tối, cô bé đọc bài về vùng Georgia và trả lời câu hỏi cuối bài. Câu hỏi đầu tiên là "Vùng Georgia có những nguồn tài nguyên thiên nhiên nào?" Kelli trở nên lúng túng. Cô đọc lại toàn bộ chương sách nhưng không tài nào tìm thấy cụm từ "tài nguyên thiên nhiên". Cô bé tỏ ra bối rối, và bố cô phải ngồi xuống bên cạnh: "Chuyện gì thế, Kelli?"</p>
+<p class="calibre1">"Con không tìm thấy từ <em class="calibre4">tài nguyên thiên nhiên</em> ở đâu cả." Kelli thở dài. Sau đó, bố giải thích nghĩa của từ đó và đưa ra các ví dụ. Đột nhiên, cô bé nhận ra điều gì đó. Khi đọc lại chương sách, cô đã nhanh chóng có được câu trả lời. Vì sở hữu kiểu phong cách cụ thể-theo trình tự, cô bé dễ dàng nhớ được các chi tiết nhỏ. Tuy nhiên, bài tập môn lịch sử lại dạy cô bé cách nhận biết những khái niệm trừu tượng. Những đứa trẻ cụ thể-theo trình tự rất giỏi xử lý các sự việc thực tế, nhưng chúng phải tập nhận biết những khái niệm hay hình ảnh trừu tượng hơn.</p>
+<p class="calibre1">Một số đặc điểm đặc trưng của những đứa trẻ cụ thể-theo trình tự:</p>
+<p class="calibre1"> </p>
+<p class="calibre1">• Rất ngăn nắp, dứt khoát và cẩn thận.</p>
+<p class="calibre1">• Có thể hỏi đi hỏi lại để chắc chắn hoặc hỏi thêm chỉ dẫn chi tiết vì muốn chắc chắn là mình làm đúng.</p>
+<p class="calibre1">• Luôn luôn cảm thấy an tâm hơn khi có một chỉ dẫn để làm theo, một bản mẫu để bắt chước, hoặc ai đó làm mẫu.</p>
+<p class="calibre1">• Để dạy chúng làm việc nhà, sống có trách nhiệm, và cư xử tốt, cách có hiệu quả nhất là treo thưởng và đích thân bạn phải làm gương.</p>
+<p class="calibre1">• Đặc biệt kiên định, và có thể thường xuyên nhắc bố mẹ về những lời hứa và các bước bị thiếu trong khi làm một việc gì đó. Các bậc phụ huynh ngẫu nhiên có khi chẳng bao giờ lên một danh sách việc cần làm, nói gì đến việc làm theo chúng!</p>
+<p class="calibre1">• Hầu như sẽ nhất nhất tin lời bố mẹ. Vì những người cụ thể-theo trình tự luôn giao tiếp theo nghĩa đen, nhiều chỉ dẫn của các bậc phụ huynh trừu tượng sẽ bị hiểu nhầm, vì họ nghĩ rằng đứa con cụ thể-theo trình tự của họ sẽ hiểu những gì họ muốn nói chứ không chỉ điều họ nói ra.</p>
+<p class="calibre1">Một bà mẹ trẻ tỏ ra rất lo lắng khi thấy đứa con gái 5 tuổi của mình mệt rã rời sau ngày đi học mẫu giáo đầu tiên. "Sao con lại mệt mỏi thế?" Bà mẹ hỏi.</p>
+<p class="calibre1">Cô bé thở hổn hển: "Mẹ ơi, con gần như phải chạy cả ngày!"</p>
+<p class="calibre1">"Tại sao con lại phải chạy nhiều thế?"</p>
+<!-- Carousel -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="max-width: 500px; margin-left: 400px;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./Slide ảnh chương 3/Chương 3.1.png" class="d-block w-100" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="./Slide ảnh chương 3/Chương 3.2.png" class="d-block w-100" alt="Image 2">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<p class="calibre1">Cô bé trả lời nghiêm túc: "Cô giáo con bảo rằng Khi đi trên vỉa hè thì phải bước từ từ, khi ở trên sân cỏ thì hãy chạy chơi. Con đứng trên cỏ suốt, nên con cứ phải chạy thôi". Khi đó, bà mẹ nhận thấy rằng con mình có những đặc điểm cụ thể-theo trình tự rất rõ ràng.</p>
+<p class="calibre1">Tracy là một cô bé mười tuổi rất cẩn thận và mang đặc trưng cụ thể-theo trình tự từ bé. Một lần đi tới trung tâm thương mại để mua sắm, cô bé hỏi một câu hỏi chắc chắn đã thắc mắc từ lâu: "Tại sao trên nắp các thùng rác lại ghi chữ CẢM ƠN ạ?"</p>
+<p class="calibre1">Mẹ cô kiên nhẫn giải thích: "Đó là để cảm ơn những người đã bỏ rác vào đó."</p>
+<p class="calibre1">Cô bé gật đầu hiểu, nhưng lại thắc mắc tiếp. "Nhưng đâu phải ai cũng bỏ rác vào đó?"</p>
+<p class="calibre1">Mẹ cô bé trả lời. "Nó chỉ cảm ơn những người bỏ rác vào thôi."</p>
+<p class="calibre1">Tracy nhíu mày và nói ra ý kiến cụ thể-theo trình tự của mình: "Thế thì phải ghi là CẢM ƠN NẾU BẠN BỎ RáC VàO ĐâY."</p>
+<p class="calibre1">Các bậc phụ huynh như phụ huynh của Tracy cần giúp con mình phát triển năng khiếu lý giải ngôn ngữ của những đứa con cụ thể-theo trình tự bằng cách thấu hiểu và chỉ ra cho con thấy lợi ích của việc là một người cụ thể-theo trình tự. Ví dụ, trẻ cụ thể-theo trình tự thường xuyên mắc lỗi vì chúng nhìn mọi việc theo đúng nghĩa đen. Khi chúng cảm thấy an tâm về giá trị của khả năng giao tiếp tự nhiên của mình thì việc khuyến khích các em phát triển tự nhiên và dựa trên phong cách của mình sẽ trở nên dễ dàng hơn.</p>
+<p class="calibre1">ĐIỀU GÌ LÀM HỌ CĂNG THẲNG?</p>
+<p class="calibre1">Các bậc phụ huynh và những đứa trẻ cụ thể-theo trình tự có rất nhiều điểm tương đồng về nguyên nhân làm họ căng thẳng và cách giải toả được căng thẳng. </p>
+<div align="left" dir="ltr" style="margin-left:0pt;">
+<table style="border-collapse:collapse; border:none; margin-left:220px; table-layout:fixed; width:451.27559055118115pt">
+	<colgroup>
+		<col/>
+	</colgroup>
+	<tbody>
+		<tr style="height:0pt">
+			<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word; text-align: center;"><strong><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">ĐIỀU GÌ LÀM HỌ CĂNG THẲNG?</span></span></strong></td>
+		</tr>
+		<tr style="height:0pt">
+			<td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;">
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif"><strong>Những người cụ thể - theo trình tự cần:</strong></span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Có tổ chức&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Có thể dự đoán được&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Luôn có thời gian biểu&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Hành động theo thói quen</span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Quan tâm đến phần thưởng vật chất&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hiểu ngôn ngữ theo nghĩa đen</span></span></p>
+			</td>
+		</tr>
+		<tr style="height:0pt">
+			<td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;">
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif"><strong>Những điều làm họ căng thẳng:</strong></span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Có quá nhiều việc để làm&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Những chỉ đạo chung chung</span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Không biết người khác mong đợi gì ở&nbsp;mình&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Không có nơi làm việc sạch sẽ&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Không biết bắt đầu từ đâu&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Không được xem ví dụ</span></span></p>
+			</td>
+		</tr>
+		<tr style="height:0pt">
+			<td style="border-left:solid #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;">
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif"><strong>Cách họ bớt căng thẳng:</strong></span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Cho họ không gian và thời gian làm&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cho các ví dụ cụ thể&nbsp;&nbsp;</span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">việc cố định, yên tĩnh và không vị quấy rầy&nbsp;</span></span></p>
+
+			<p><span style="font-size:1.00em"><span style="font-family:times new roman,times,serif">Hỏi họ có cần giúp đỡ không&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Luyện tập các tình huống "Nếu...thì" để&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;chuẩn bị cho những điều không mong đợi</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="calibre1"> KẾT LUẬN</p>
+<p class="calibre1">Người cụ thể-theo trình tự sẽ đóng góp rất lớn cho gia đình và xã hội với xu hướng bẩm sinh thiên về tổ chức, khả năng dự báo và giao tiếp. Sự sáng tạo của họ sẽ xuất hiện khi họ điều chỉnh và phát triển ý tưởng gốc của người khác. Tính kiên định và đáng tin cậy của họ thường làm họ dễ được trọng dụng hơn những người ngẫu nhiên. Hãy nhớ rằng mỗi người đều có ít nhiều tố chất cụ thể-theo trình tự. Đó không phải là phong cách học tập chủ đạo của bạn không có nghĩa là bạn không thể dùng đến nó lúc cần. Bạn càng nhận ra được tố chất cụ thể-theo trình tự của mình bao nhiêu thì bạn sẽ càng đánh giá cao những người có phong cách học tập này bấy nhiêu.</p>
+<div class="question">
+    <h2>Câu hỏi 1: Đặc điểm đặc trưng của những đứa trẻ cụ thể-theo trình tự là?</h2>
+    <div class="options">
+        <label><input type="radio" name="answer1" value="A">Ngăn nắp và cẩn thận</label>
+        <label><input type="radio" name="answer1" value="B">Bừa bộn</label>
+        <label><input type="radio" name="answer1" value="C">Ẩu đoảng</label>
+        <label><input type="radio" name="answer1" value="D">Không có tính dứt khoát</label>
+    </div>
+</div>
+
+<div class="question">
+    <h2>Câu hỏi 2: Điều gì làm cho phụ huynh và những đứa trẻ cụ thể - trình tự trở nên căng thẳng?</h2>
+	<img src="ảnh câu hỏi.jpg" alt="ảnh câu hỏi">
+    <div class="options">
+        <label><input type="radio" name="answer2" value="Biết">Biết sắp xếp công việc</label>
+        <label><input type="radio" name="answer2" value="Luôn">Luôn có thời gian biểu</label>
+        <label><input type="radio" name="answer2" value="Không">Không biết bắt đầu từ đâu</label>
+        <label><input type="radio" name="answer2" value="Nơi">Nơi làm việc sạch sẽ, yên tĩnh</label>
+    </div>
+</div>
+
+<button onclick="checkAnswers()" style="margin-left: 120px;">Kiểm tra đáp án</button>
+<p id="result"></p>
+
+<script>
+function checkAnswers() {
+    var correctAnswers = {
+        answer1: 'A',
+        answer2: 'Không'
+    };
+
+    var correctCount = 0;
+
+    for (var question in correctAnswers) {
+        var selectedOption = document.querySelector('input[name="' + question + '"]:checked');
+        var allOptions = document.querySelectorAll('input[name="' + question + '"]');
+        
+        allOptions.forEach(function(option) {
+            if (option.value === correctAnswers[question]) {
+                option.parentNode.classList.add('correct');
+            }
+        });
+
+        if (selectedOption && selectedOption.value === correctAnswers[question]) {
+            correctCount++;
+        }
+    }
+
+    document.getElementById('result').innerText = 'Số câu trả lời đúng: ' + correctCount;
+}
+</script>
+<div class="scroll-buttons">
+    <button onclick="scrollToTop()"><i class="bi bi-arrow-up"></i></button>
+    <button onclick="scrollToBottom()"><i class="bi bi-arrow-down"></i></button>
+</div>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function scrollToBottom() {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

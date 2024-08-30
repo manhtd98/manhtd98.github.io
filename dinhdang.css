@@ -1,0 +1,77 @@
+h1 {
+    Font-family: Time New Roman;
+    font-size: 24PX;
+    text-align: center;
+    text-indent: 5%;
+    letter-spacing:1px;
+    line-height: 150%;
+    position: static;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+ }
+p {
+    Font-family: Time New Roman;
+    font-size: 14PX;
+    text-align: justify;
+    letter-spacing:1px;
+    line-height: 150%;
+    position: static;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+}
+.calibre {
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    display: block;
+    font-size: 1.29167em;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 1em 0
+    }
+.calibre2 {
+    font-weight: bold
+    }
+.calibre3 {
+    display: block;
+    font-size: 1.66667em;
+    font-weight: bold;
+    line-height: 1.8;
+    margin: 0.67em 0
+    }
+.calibre4 {
+    font-style: italic
+    }
+.calibre5 {
+    display: block;
+    line-height: 1.5
+    }
+.calibre6 {
+    height: auto;
+    line-height: 1.5;
+    width: auto
+    }
+.calibre7 {
+    height: auto;
+    width: auto
+    }
+    @page {
+        margin-bottom: 5pt;
+        margin-top: 5pt
+        }
+img.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 800px;
+}

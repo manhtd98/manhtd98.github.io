@@ -55,15 +55,23 @@
     
         .navbar .menu {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 100%;
-            margin-top: 10px;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-top: 0;
+            scrollbar-width: none;  /* Firefox */
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        }
+
+        .navbar .menu::-webkit-scrollbar { 
+            display: none;  /* WebKit */
         }
 
         .navbar .menu a {
-            margin: 5px;
-            font-size: 14px;
+            margin: 0 5px;
+            font-size: 12px;
+            white-space: nowrap;
         }
 
         .navbar .search-container {
@@ -103,8 +111,12 @@
 
         @media (min-width: 768px) {
             .navbar .menu {
-                width: auto;
-                margin-top: 0;
+                justify-content: center;
+                overflow-x: visible;
+            }
+
+            .navbar .menu a {
+                font-size: 14px;
             }
 
             .navbar .search-container {
